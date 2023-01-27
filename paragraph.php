@@ -17,10 +17,10 @@ $censored_string = str_replace($censura, '***' , $paragraph);
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $paragraph; ?></h1>
-    <h1><?php echo  strlen ($paragraph); ?></h1>
-    <h1><?php echo $censored_string; ?></h1>
-    <h1><?php echo strlen ($censored_string); ?></h1>
+    <h1><?php echo $paragraph." ".strlen ($paragraph); ?></h1>
+    
+    <h1><?php echo $censored_string ." ".strlen ($censored_string);?></h1>
+    
     
 </body>
 </html>
