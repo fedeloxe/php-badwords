@@ -1,7 +1,7 @@
 <?php
 
-$paragraph= $_GET['paragraph'];
-$censura= $_GET['censura'];
+$paragraph= $_POST['paragraph'];
+$censura= $_POST['censura'];
 $censored_string = str_replace($censura, '***' , $paragraph);
 // echo $paragraph;
 // echo $censored_string;

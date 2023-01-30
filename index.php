@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="./paragraph.php" method="GET">
+    <form action="./paragraph.php" method="POST">
         <input type="text" name="paragraph" id="paragraph" 
         placeholder="paragraph">
         <input type="text" name="censura" id="censura"
